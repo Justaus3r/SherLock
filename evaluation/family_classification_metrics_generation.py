@@ -2,14 +2,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sn
 
-from evaluation.utils.data_util import get_confusion_matrix_from_dict
-from evaluation.utils.metrics import MultiClassClassificationConfusionMatrix
+from utils.data_util import get_confusion_matrix_from_dict
+from utils.metrics import MultiClassClassificationConfusionMatrix
 
 actual_label_index = 1
 predicted_label_index = 2
 
 no_of_classes = 696
-csv_file_name = f"predic_family_balanced.csv"
+csv_file_name = f"predic_probabilities_binary_test.csv"
 font_size = 40
 
 tick_font_size = 30

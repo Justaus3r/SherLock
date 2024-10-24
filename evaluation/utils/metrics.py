@@ -1,6 +1,6 @@
 from sklearn.metrics import accuracy_score
 
-from evaluation.utils.csv_utils import CSVUtils
+from .csv_utils import CSVUtils
 
 
 class BinaryClassificationMatrics:
